@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Git/CPP/FallingBlocks/environment.cpp
+environment.h
+/home/kevin/Git/CPP/FallingBlocks/environment.h
+
+/home/kevin/Git/CPP/FallingBlocks/environment.h
+iostream
+-
+random
+-
+vector
+-
+objects/grid_object.h
+/home/kevin/Git/CPP/FallingBlocks/objects/grid_object.h
+objects/spike.h
+/home/kevin/Git/CPP/FallingBlocks/objects/spike.h
+objects/user.h
+/home/kevin/Git/CPP/FallingBlocks/objects/user.h
+
+/home/kevin/Git/CPP/FallingBlocks/objects/grid_object.h
+random
+-
+
+/home/kevin/Git/CPP/FallingBlocks/objects/spike.h
+grid_object.h
+/home/kevin/Git/CPP/FallingBlocks/objects/grid_object.h
+
+/home/kevin/Git/CPP/FallingBlocks/objects/user.h
+grid_object.h
+/home/kevin/Git/CPP/FallingBlocks/objects/grid_object.h
+
